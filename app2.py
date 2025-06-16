@@ -24,7 +24,7 @@ if "step" not in st.session_state:
 # ❶ 데이터 로드 (엑셀)
 @st.cache_data
 def load_perfumes():
-    return pd.read_excel("디컨_향수List.xlsx")
+    return pd.read_excel("de_perList.xlsx")
 
 perfumes = load_perfumes()
 
